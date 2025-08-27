@@ -61,7 +61,21 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Wedding Theme Colors
+				'rose-gold': 'hsl(var(--rose-gold))',
+				'champagne': 'hsl(var(--champagne))',
+				'blush': 'hsl(var(--blush))',
+				'dusty-rose': 'hsl(var(--dusty-rose))',
+				'sage': 'hsl(var(--sage))'
+			},
+			fontFamily: {
+				'serif': ['Playfair Display', 'serif'],
+				'body': ['Poppins', 'sans-serif'],
+			},
+			boxShadow: {
+				'romantic': 'var(--shadow-romantic)',
+				'soft': 'var(--shadow-soft)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

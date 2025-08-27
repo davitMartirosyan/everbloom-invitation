@@ -1,0 +1,94 @@
+{
+  "couple": {
+    "bride": "Emma",
+    "groom": "James",
+    "subtitle": "We are getting married"
+  },
+  "wedding": {
+    "date": "2024-06-15T16:00:00.000Z",
+    "venue": "Sunset Garden Estate"
+  },
+  "hero": {
+    "backgroundImage": "/src/assets/hero-background.jpg"
+  },
+  "gallery": [
+    {
+      "id": 1,
+      "url": "/src/assets/gallery-1.jpg",
+      "alt": "Emma and James holding hands in the garden"
+    },
+    {
+      "id": 2,
+      "url": "/src/assets/gallery-2.jpg",
+      "alt": "Wedding rings on silk with rose petals"
+    },
+    {
+      "id": 3,
+      "url": "/src/assets/gallery-3.jpg",
+      "alt": "Beautiful wedding bouquet"
+    },
+    {
+      "id": 4,
+      "url": "/src/assets/gallery-4.jpg",
+      "alt": "Wedding ceremony venue setup"
+    }
+  ],
+  "timeline": [
+    {
+      "id": 1,
+      "time": "2:00 PM",
+      "event": "Guest Arrival & Welcome Reception",
+      "description": "Join us for welcome drinks and light refreshments"
+    },
+    {
+      "id": 2,
+      "time": "4:00 PM",
+      "event": "Wedding Ceremony",
+      "description": "Exchange of vows in the beautiful garden setting"
+    },
+    {
+      "id": 3,
+      "time": "5:00 PM",
+      "event": "Cocktail Hour",
+      "description": "Photography session and cocktails in the garden"
+    },
+    {
+      "id": 4,
+      "time": "6:30 PM",
+      "event": "Reception Dinner",
+      "description": "Three-course dinner with speeches and toasts"
+    },
+    {
+      "id": 5,
+      "time": "9:00 PM",
+      "event": "Dancing & Celebration",
+      "description": "First dance followed by open dance floor"
+    }
+  ],
+  "addresses": [
+    {
+      "id": 1,
+      "type": "home",
+      "icon": "🏠",
+      "name": "Getting Ready",
+      "address": "123 Maple Street, Springfield, IL 62701",
+      "mapsUrl": "https://maps.google.com/?q=123+Maple+Street+Springfield+IL+62701"
+    },
+    {
+      "id": 2,
+      "type": "ceremony",
+      "icon": "⛪",
+      "name": "Wedding Ceremony",
+      "address": "Sunset Garden Estate, 456 Rose Lane, Springfield, IL 62702",
+      "mapsUrl": "https://maps.google.com/?q=456+Rose+Lane+Springfield+IL+62702"
+    },
+    {
+      "id": 3,
+      "type": "reception",
+      "icon": "🎉",
+      "name": "Reception",
+      "address": "Grand Ballroom, 789 Celebration Ave, Springfield, IL 62703",
+      "mapsUrl": "https://maps.google.com/?q=789+Celebration+Ave+Springfield+IL+62703"
+    }
+  ]
+}
