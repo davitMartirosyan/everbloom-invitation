@@ -1,0 +1,109 @@
+{
+  "theme": {
+    "name": "ocean-blue",
+    "primaryColor": "210 100% 70%",
+    "secondaryColor": "210 25% 95%",
+    "accentColor": "180 85% 85%",
+    "backgroundColor": "210 100% 98%",
+    "foregroundColor": "210 15% 25%",
+    "customColors": {
+      "ocean-blue": "210 100% 70%",
+      "seafoam": "180 85% 85%",
+      "powder-blue": "210 60% 90%",
+      "navy": "210 25% 40%",
+      "mint": "160 50% 85%"
+    }
+  },
+  "couple": {
+    "bride": "Sarah",
+    "groom": "Michael",
+    "subtitle": "We are getting married"
+  },
+  "wedding": {
+    "date": "2024-08-20T16:00:00.000Z",
+    "venue": "Oceanview Resort"
+  },
+  "hero": {
+    "backgroundImage": "/src/assets/hero-background.jpg"
+  },
+  "gallery": [
+    {
+      "id": 1,
+      "url": "/src/assets/gallery-1.jpg",
+      "alt": "Sarah and Michael at the beach"
+    },
+    {
+      "id": 2,
+      "url": "/src/assets/gallery-2.jpg",
+      "alt": "Wedding rings on sand"
+    },
+    {
+      "id": 3,
+      "url": "/src/assets/gallery-3.jpg",
+      "alt": "Ocean-themed bouquet"
+    },
+    {
+      "id": 4,
+      "url": "/src/assets/gallery-4.jpg",
+      "alt": "Beach wedding ceremony setup"
+    }
+  ],
+  "timeline": [
+    {
+      "id": 1,
+      "time": "3:00 PM",
+      "event": "Guest Arrival & Beach Welcome",
+      "description": "Join us for welcome cocktails by the ocean"
+    },
+    {
+      "id": 2,
+      "time": "4:00 PM",
+      "event": "Beach Ceremony",
+      "description": "Exchange of vows with ocean backdrop"
+    },
+    {
+      "id": 3,
+      "time": "5:00 PM",
+      "event": "Sunset Cocktails",
+      "description": "Photography and sunset cocktails on the beach"
+    },
+    {
+      "id": 4,
+      "time": "6:30 PM",
+      "event": "Oceanview Reception",
+      "description": "Seafood dinner with ocean views"
+    },
+    {
+      "id": 5,
+      "time": "9:00 PM",
+      "event": "Beach Dancing",
+      "description": "First dance under the stars"
+    }
+  ],
+  "addresses": [
+    {
+      "id": 1,
+      "type": "home",
+      "icon": "🏖️",
+      "name": "Getting Ready",
+      "address": "Oceanview Hotel, 123 Coastal Drive, Malibu, CA 90265",
+      "mapsUrl": "https://maps.google.com/?q=123+Coastal+Drive+Malibu+CA+90265"
+    },
+    {
+      "id": 2,
+      "type": "ceremony",
+      "icon": "🌊",
+      "name": "Beach Ceremony",
+      "address": "Sunset Beach, 456 Ocean Avenue, Malibu, CA 90265",
+      "mapsUrl": "https://maps.google.com/?q=456+Ocean+Avenue+Malibu+CA+90265"
+    },
+    {
+      "id": 3,
+      "type": "reception",
+      "icon": "🐚",
+      "name": "Reception",
+      "address": "Oceanview Terrace, 789 Seaside Blvd, Malibu, CA 90265",
+      "mapsUrl": "https://maps.google.com/?q=789+Seaside+Blvd+Malibu+CA+90265"
+    }
+  ]
+}

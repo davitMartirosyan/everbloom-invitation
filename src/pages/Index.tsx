@@ -4,8 +4,20 @@ import Gallery from '@/components/Gallery';
 import Timeline from '@/components/Timeline';
 import Addresses from '@/components/Addresses';
 import Countdown from '@/components/Countdown';
+import { ThemeProvider } from '@/components/ThemeProvider';
 
 interface WeddingData {
+  theme: {
+    name: string;
+    primaryColor: string;
+    secondaryColor: string;
+    accentColor: string;
+    backgroundColor: string;
+    foregroundColor: string;
+    customColors: {
+      [key: string]: string;
+    };
+  };
   couple: {
     bride: string;
     groom: string;
@@ -14,6 +26,9 @@ interface WeddingData {
   wedding: {
     date: string;
     venue: string;
+  };
+  hero: {
+    backgroundImage: string;
   };
   gallery: Array<{
     id: number;
@@ -79,17 +94,19 @@ const Index = () => {
   }
 
   return (
-    <div className="min-h-screen">
-      <Hero 
-        bride={weddingData.couple.bride}
-        groom={weddingData.couple.groom}
-        subtitle={weddingData.couple.subtitle}
-      />
-      <Gallery images={weddingData.gallery} />
-      <Timeline events={weddingData.timeline} />
-      <Addresses addresses={weddingData.addresses} />
-      <Countdown targetDate={weddingData.wedding.date} />
-    </div>
+    <ThemeProvider theme={weddingData.theme}>
+      <div className="min-h-screen">
+        <Hero 
+          bride={weddingData.couple.bride}
+          groom={weddingData.couple.groom}
+          subtitle={weddingData.couple.subtitle}
+        />
+        <Gallery images={weddingData.gallery} />
+        <Timeline events={weddingData.timeline} />
+        <Addresses addresses={weddingData.addresses} />
+        <Countdown targetDate={weddingData.wedding.date} />
+      </div>
+    </ThemeProvider>
   );
 };
 
