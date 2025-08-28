@@ -13,7 +13,7 @@ const WeddingCalendar = ({ weddingDate }: WeddingCalendarProps) => {
   return (
     <section className="py-20 px-4 bg-gradient-to-b from-sage/20 to-background">
       <div className="max-w-6xl mx-auto">
-        <h2 className="section-title">Save the Date</h2>
+        <h2 className="section-title">Պահպանիր Օրը</h2>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Calendar Section */}

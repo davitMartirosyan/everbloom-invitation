@@ -17,7 +17,7 @@
   "couple": {
     "groom": "Կորյուն",
     "bride": "Տաթև",
-    "subtitle": "We are getting married"
+    "subtitle": "Մենք ամուսնանում ենք"
   },
   "wedding": {
     "date": "2025-09-29T16:00:00.000Z",
@@ -51,59 +51,39 @@
   "timeline": [
     {
       "id": 1,
-      "time": "2:00 PM",
-      "event": "Guest Arrival & Welcome Reception",
-      "description": "Join us for welcome drinks and light refreshments"
+      "time": "14:00 PM",
+      "event": "Սաղմոսավանք",
+      "description": ""
     },
     {
       "id": 2,
-      "time": "4:00 PM",
-      "event": "Wedding Ceremony",
-      "description": "Exchange of vows in the beautiful garden setting"
+      "time": "16:00 PM",
+      "event": "Պսակադրության արարողություն",
+      "description": ""
     },
     {
       "id": 3,
-      "time": "5:00 PM",
-      "event": "Cocktail Hour",
-      "description": "Photography session and cocktails in the garden"
-    },
-    {
-      "id": 4,
-      "time": "6:30 PM",
-      "event": "Reception Dinner",
-      "description": "Three-course dinner with speeches and toasts"
-    },
-    {
-      "id": 5,
-      "time": "9:00 PM",
-      "event": "Dancing & Celebration",
-      "description": "First dance followed by open dance floor"
+      "time": "17:00 PM",
+      "event": "Հարսանեկան խնջույք",
+      "description": ""
     }
   ],
   "addresses": [
     {
       "id": 1,
-      "type": "home",
-      "icon": "🏠",
-      "name": "Getting Ready",
-      "address": "123 Maple Street, Springfield, IL 62701",
-      "mapsUrl": "https://maps.google.com/?q=123+Maple+Street+Springfield+IL+62701"
+      "type": "Church",
+      "icon": "⛪",
+      "name": "Սաղմոսավանք",
+      "address": "Սաղմոսավանք, Հայաստան",
+      "mapsUrl": "https://www.google.com/maps/place/Saghmosavanq/@40.3806875,44.3949159,17.61z/data=!4m6!3m5!1s0x406a83a65b5f5b23:0x2c15637a87b6ecee!8m2!3d40.3805351!4d44.3967175!16s%2Fm%2F027tzt8?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D"
     },
     {
       "id": 2,
       "type": "ceremony",
-      "icon": "⛪",
-      "name": "Wedding Ceremony",
-      "address": "Sunset Garden Estate, 456 Rose Lane, Springfield, IL 62702",
-      "mapsUrl": "https://maps.google.com/?q=456+Rose+Lane+Springfield+IL+62702"
-    },
-    {
-      "id": 3,
-      "type": "reception",
-      "icon": "🎉",
-      "name": "Reception",
-      "address": "Grand Ballroom, 789 Celebration Ave, Springfield, IL 62703",
-      "mapsUrl": "https://maps.google.com/?q=789+Celebration+Ave+Springfield+IL+62703"
+      "icon": "💒",
+      "name": "Aghababyan’s Restaurant",
+      "address": "Կատարյալի մասին պատկերացումներն ուղեկցում են դեպի ՝ 𝙰𝙶𝙷𝙰𝙱𝙰𝙱𝚈𝙰𝙽'𝚂",
+      "mapsUrl": "https://www.google.com/maps/place/Aghababyan%E2%80%99s++Restaurant/data=!4m2!3m1!1s0x406a97622758bbf3:0xa7ef789e9b5142b7?sa=X&ved=1t:242&ictx=111"
     }
   ]
 }
