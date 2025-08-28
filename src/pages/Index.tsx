@@ -106,7 +106,6 @@ const Index = () => {
         <WeddingCalendar weddingDate={weddingData.wedding.date} />
         <Timeline events={weddingData.timeline} />
         <Addresses addresses={weddingData.addresses} />
-        <Countdown targetDate={weddingData.wedding.date} />
       </div>
     </ThemeProvider>
   );
