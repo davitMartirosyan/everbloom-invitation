@@ -32,11 +32,11 @@ const Hero = ({ bride, groom, subtitle }: HeroProps) => {
       }`}>
         <div className="mb-8">
           <h1 className="hero-text text-5xl md:text-7xl lg:text-8xl font-bold mb-4">
-            {bride}
-            <span className="block text-4xl md:text-6xl lg:text-7xl font-light text-muted-foreground">
+            {groom}{" "}
+            <span className="text-4xl md:text-6xl lg:text-7xl font-light text-muted-foreground">
               &
-            </span>
-            {groom}
+            </span>{" "}
+            {bride}
           </h1>
           <p className="hero-text text-xl md:text-2xl font-light text-muted-foreground">
             {subtitle}

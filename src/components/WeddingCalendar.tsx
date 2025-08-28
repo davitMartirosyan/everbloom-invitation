@@ -35,7 +35,7 @@ const WeddingCalendar = ({ weddingDate }: WeddingCalendarProps) => {
                 disabled={(date) => !isSameDay(date, weddingDay)}
                 className="rounded-lg border-0"
                 classNames={{
-                  months: "flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0",
+                  months: "flex flex-col sm:flex-row space-y-4 justify-center items-center sm:space-x-4 sm:space-y-0",
                   month: "space-y-4",
                   caption: "flex justify-center pt-1 relative items-center",
                   caption_label: "text-lg font-serif font-semibold text-foreground",

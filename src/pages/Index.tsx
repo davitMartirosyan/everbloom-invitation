@@ -98,8 +98,8 @@ const Index = () => {
     <ThemeProvider theme={weddingData.theme}>
       <div className="min-h-screen">
         <Hero 
-          bride={weddingData.couple.bride}
           groom={weddingData.couple.groom}
+          bride={weddingData.couple.bride}
           subtitle={weddingData.couple.subtitle}
         />
         <Gallery images={weddingData.gallery} />
