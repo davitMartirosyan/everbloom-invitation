@@ -4,6 +4,7 @@ import Gallery from '@/components/Gallery';
 import Timeline from '@/components/Timeline';
 import Addresses from '@/components/Addresses';
 import Countdown from '@/components/Countdown';
+import WeddingCalendar from '@/components/WeddingCalendar';
 import { ThemeProvider } from '@/components/ThemeProvider';
 
 interface WeddingData {
@@ -102,6 +103,7 @@ const Index = () => {
           subtitle={weddingData.couple.subtitle}
         />
         <Gallery images={weddingData.gallery} />
+        <WeddingCalendar weddingDate={weddingData.wedding.date} />
         <Timeline events={weddingData.timeline} />
         <Addresses addresses={weddingData.addresses} />
         <Countdown targetDate={weddingData.wedding.date} />
