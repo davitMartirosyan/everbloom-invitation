@@ -13,7 +13,7 @@ const Timeline = ({ events }: TimelineProps) => {
   return (
     <section className="py-20 px-4 bg-gradient-to-b from-blush/20 to-background">
       <div className="max-w-4xl mx-auto">
-        <h2 className="section-title">Ժամանակացույց</h2>
+        <h2 className="section-title">Օրվա Ծրագիր</h2>
         
         <div className="relative">
           {events.map((event, index) => (

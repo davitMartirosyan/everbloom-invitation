@@ -1,4 +1,6 @@
 import { MapPin, ExternalLink } from 'lucide-react';
+import churchIcon from "@/assets/church.png";
+import restaurantIcon from "@/assets/restaurant.png";
 
 interface Address {
   id: number;
@@ -9,9 +11,15 @@ interface Address {
   mapsUrl: string;
 }
 
+
 interface AddressesProps {
   addresses: Address[];
 }
+
+const iconMap = {
+  church: churchIcon,
+  ceremony: restaurantIcon,
+};
 
 const Addresses = ({ addresses }: AddressesProps) => {
   return (
@@ -22,7 +30,7 @@ const Addresses = ({ addresses }: AddressesProps) => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {addresses.map((address) => (
             <div key={address.id} className="card-elegant p-6 text-center group transition-all duration-300 hover:shadow-romantic hover:scale-105">
-              <div className="text-4xl mb-4">{address.icon}</div>
+              <div className="text-4xl mb-4 iconContainer"><img className="cardIcon" src={iconMap[address.type]}/></div>
               <h3 className="font-serif text-xl font-semibold mb-3 text-foreground">
                 {address.name}
               </h3>

@@ -17,7 +17,8 @@
   "couple": {
     "groom": "Կորյուն",
     "bride": "Տաթև",
-    "subtitle": "Մենք ամուսնանում ենք"
+    "subtitle": "Մեր կյանքում գեղեցիկ իրադարձություն է սպասվում։",
+    "sub_category_title": "Ուրախությամբ հրավիրում ենք մեզ հետ անցկացնելու մեր կյանքի ամենահիշարժան օրերից մեկը։"
   },
   "wedding": {
     "date": "2025-09-29T16:00:00.000Z",
@@ -71,18 +72,18 @@
   "addresses": [
     {
       "id": 1,
-      "type": "Church",
-      "icon": "⛪",
+      "type": "church",
+      "icon": "/src/assets/church.png",
       "name": "Սաղմոսավանք",
-      "address": "Սաղմոսավանք, Հայաստան",
+      "address": "",
       "mapsUrl": "https://www.google.com/maps/place/Saghmosavanq/@40.3806875,44.3949159,17.61z/data=!4m6!3m5!1s0x406a83a65b5f5b23:0x2c15637a87b6ecee!8m2!3d40.3805351!4d44.3967175!16s%2Fm%2F027tzt8?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D"
     },
     {
       "id": 2,
       "type": "ceremony",
-      "icon": "💒",
+      "icon": "/src/assets/restaurant.png",
       "name": "Aghababyan’s Restaurant",
-      "address": "Կատարյալի մասին պատկերացումներն ուղեկցում են դեպի ՝ 𝙰𝙶𝙷𝙰𝙱𝙰𝙱𝚈𝙰𝙽'𝚂",
+      "address": "",
       "mapsUrl": "https://www.google.com/maps/place/Aghababyan%E2%80%99s++Restaurant/data=!4m2!3m1!1s0x406a97622758bbf3:0xa7ef789e9b5142b7?sa=X&ved=1t:242&ictx=111"
     }
   ]

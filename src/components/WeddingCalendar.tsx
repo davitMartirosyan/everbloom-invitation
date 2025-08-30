@@ -23,7 +23,7 @@ const WeddingCalendar = ({ weddingDate }: WeddingCalendarProps) => {
                 {monthYear}
               </h3>
               <p className="text-muted-foreground text-lg">
-                Mark your calendar for our special day
+                Նշեք ձեր օրացույցը մեր հատուկ օրվա համար
               </p>
             </div>
             

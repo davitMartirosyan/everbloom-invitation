@@ -47,10 +47,10 @@ const Countdown = ({ targetDate }: CountdownProps) => {
             <Heart className="text-6xl animate-pulse" fill="currentColor" />
           </div>
           <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4">
-            We are married! 🎉
+          Մենք ամուսնացած ենք! 🎉
           </h2>
           <p className="text-xl opacity-90">
-            Thank you for celebrating with us!
+            Շնորհակալություն մեզ հետ տոնելու համար
           </p>
         </div>
       </footer>
@@ -61,7 +61,7 @@ const Countdown = ({ targetDate }: CountdownProps) => {
     <footer className="wedding-gradient py-16 px-4 text-center text-white">
       <div className="max-w-4xl mx-auto">
         <h2 className="font-serif text-3xl md:text-4xl font-bold mb-8">
-          Counting Down to Forever
+          Հետհաշվարկ
         </h2>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mb-8">

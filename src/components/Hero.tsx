@@ -5,9 +5,10 @@ interface HeroProps {
   bride: string;
   groom: string;
   subtitle: string;
+  sub_category_title: string;
 }
 
-const Hero = ({ bride, groom, subtitle }: HeroProps) => {
+const Hero = ({ bride, groom, subtitle, sub_category_title }: HeroProps) => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -39,7 +40,10 @@ const Hero = ({ bride, groom, subtitle }: HeroProps) => {
             {bride}
           </h1>
           <p className="hero-text text-xl md:text-2xl font-light text-muted-foreground">
+            <h1>Սիրելի Հյուրեր</h1>
             {subtitle}
+            <br/>
+            {sub_category_title}
           </p>
         </div>
         

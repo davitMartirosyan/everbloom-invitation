@@ -23,6 +23,7 @@ interface WeddingData {
     bride: string;
     groom: string;
     subtitle: string;
+    sub_category_title: string;
   };
   wedding: {
     date: string;
@@ -101,6 +102,7 @@ const Index = () => {
           groom={weddingData.couple.groom}
           bride={weddingData.couple.bride}
           subtitle={weddingData.couple.subtitle}
+          sub_category_title={weddingData.couple.sub_category_title}
         />
         <Gallery images={weddingData.gallery} />
         <WeddingCalendar weddingDate={weddingData.wedding.date} />

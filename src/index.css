@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --secondary-foreground: 342 15% 25%;
 
     --muted: 345 20% 96%;
-    --muted-foreground: 342 10% 55%;
+    --muted-foreground: 342 90% 10%;
 
     --accent: 38 85% 85%;
     --accent-foreground: 342 15% 25%;
@@ -129,7 +129,18 @@ All colors MUST be HSL.
   .wedding-gradient {
     background: var(--gradient-romantic);
   }
-  
+  .iconContainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .cardIcon
+  {
+    display:flex;
+    height: 40px;
+    width: 40px;
+  }
+
   .hero-text {
     @apply font-serif text-foreground;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
